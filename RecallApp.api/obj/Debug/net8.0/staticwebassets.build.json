@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "1Yb7HSzk5KBqS2XyOD8baiysVCatP1cNH4v0bUMgrmw=",
+  "Source": "RecallApp.api",
+  "BasePath": "_content/RecallApp.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

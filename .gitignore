@@ -1,0 +1,9 @@
+.vs/
+\*\*/bin/
+\*\*/obj/
+RecallApp.Core/bin/
+RecallApp.Core/obj/
+RecallApp.Infrastructure/bin/
+RecallApp.Infrastructure/obj/
+RecallApp.api/bin
+RecallApp.api/obj
