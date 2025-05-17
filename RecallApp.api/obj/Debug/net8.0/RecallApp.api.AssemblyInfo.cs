@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("85309821-e2ff-4fa2-89a9-a94dd56239a5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecallApp.api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1442edb761471837e3177107f879852d258488c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecallApp.api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecallApp.api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

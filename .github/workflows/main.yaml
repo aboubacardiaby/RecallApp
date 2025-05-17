@@ -34,9 +34,19 @@ jobs:
          
           - name: Build project
             run: dotnet build --configuration Release
+
+          - name: publish project
+            run:   dotnet push --configuration Release --output ./publish
     
           - name: Run tests
             run: dotnet test --configuration Release --no-build --verbosity normal
+
+          - name: Build Docker image
+            run: |
+              docker build -t recall:latest .
+    
+
+
     
     # deploy:
     #     runs-on: ubuntu-latest
